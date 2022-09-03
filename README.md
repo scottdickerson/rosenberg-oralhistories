@@ -2,6 +2,7 @@
 
 This is based on Bootstrap 5 Boilerplate with Gulp 4+, cross-env, Sass, sourcemaps, concat, CSS & HTML minification, uglify, image optimization, template partials, BrowserSync.
 
+MAC:
 Install python2:
 
 ```
@@ -9,7 +10,12 @@ brew install pyenv
 pyenv install 2.7.18
 ```
 
-Update the `.npmrc` file to point to this python location
+Windows:
+Follow these instructions:
+https://github.com/nodejs/node-gyp#on-windows
+Add visual studio 2017 community edition C++ tools
+
+Update the `.npmrc` file to point to the installed python location
 
 Install with `npm install`. Requires gulp, install with `npm install -g gulp`.
 
